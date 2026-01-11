@@ -326,3 +326,45 @@ body {
   width: 18px;
   align-items: center;
 }
+
+#footer-init {
+  padding: 120px 120px 30px 120px;
+  background-color: #001931;
+}
+
+#footer-init .footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+#footer-init .social-media {
+  text-align: right;
+}
+
+.social-media h2 {
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  font-weight: 400;
+}
+
+.footer-divider {
+  border: none;
+  width: 100%;
+  background-color: rgba(189, 137, 137, 0.1);
+  height: 1px;
+}
+
+.footer-last {
+  text-align: center;
+  margin-top: 20px;
+  color: #FAFAFA;
+}
+
+.footer-last p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
