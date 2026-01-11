@@ -45,6 +45,13 @@ body {
   font-size: 14px;
 }
 
+.group-img {
+    width: 20px; 
+    height: 20px;
+    object-fit: contain;
+    padding-right: 5px;
+}
+
 .btn:hover {
   background-color: #3e7352;
 }
@@ -98,15 +105,107 @@ body {
   padding-top: 32px;
 }
 
-#section1 .button-ref .btn1 {
+
+.btn1 {
+    background-color: #5a966a;
+    border-radius: 6px;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+
+  .btn-text {
+    display: flex;       
+    align-items: center; 
+    gap: 10px;          
+    margin: 15px 0;      
+    color: white;
+  }
+
+  .arrow-img {
+    width: 20px;         
+    height: auto;
+    display: block;
+  }  
+
+  .btn2 {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+
+  .btn-text2 {
+    display: flex;       
+    align-items: center; 
+    gap: 10px;          
+    margin: 15px 0;      
+    color: white;
+  }
+
+  .play-img {
+    width: 20px;         
+    height: auto;
+    display: block;
+  }  
+
+  #section3 .section3-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  #section3 .section3-container .section3-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#section3 .section3-container .section3-heading h2 {
+  font-weight: bold;
+  font-size: 48px;
+  padding-top: 50px;
+}
+
+#section3 .section3-container .section3-heading p {
+  line-height: 20px;
   font-size: 16px;
-  box-shadow: none;
-  background-color: #50936a;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: lighter;
-  font-size: 14px;
-  line-height: auto;
+  padding-top: 16px;
+  color: #627382;
+
+}
+
+#section3 .section3-container .section3-box {
+  display: flex;
+  padding-top: 44px;
+  gap: 24px;
+}
+
+.section3-box .section3-card {
+    padding: 60px 30px;
+    width: 322px;
+    height: 300px;
+    box-shadow: 0 6px 50px 0 #00000010;
+    text-align: center;
+    flex: 1;
+}
+
+.section3-box .section3-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 24px
+}
+
+.section3-box .section3-card h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.section3-box .section3-card p {
+  line-height: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+  color: #627382;
+
 }
